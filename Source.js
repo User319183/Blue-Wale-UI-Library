@@ -3,8 +3,9 @@
  
 
                                                 Blue Wale's Notify & Prompt Library
-                                                Version 0.0.1
+                                                Version 0.0.2
                                                 Published on 3/5/2023 by *Sathvik*
+                                                Updated on 3/7/2023 by *Sathvik*
                                                 This library is licensed under the 'BSD 3-Clause "New" or "Revised" License'
                                                 Please leave credits if you use this library in your project
 
@@ -147,6 +148,26 @@ const prompt = (message) => {
    );
 
 
+/*
+ 
+         Below this line is an example of how to use the prompt & alert functions.
+
+         Above this line is the library code. If you would like to use this library in your project, copy the above code and paste it into your project.
+         Then, copy the below code and paste it into your project. You can then customise the link to your hosted javascript file.
+
+
+         javascript: (function() {
+            fetch("https://raw.githubusercontent.com/XXXXXXXXXXXXXXXXXXXXXXXX.js")
+               .then(response => response.text())
+               .then(data => {
+                     eval(data);
+               });
+         })();
+
+
+*/
+
+   // Example Password & Alert Message (Change this to your password & alert message)
    promptButton.addEventListener("click", () => {
       if (promptInput.value === "ExamplePassword") { // Change this to your password
          alert("Correct password!");
@@ -163,9 +184,6 @@ const prompt = (message) => {
          alert("Incorrect password, please try again."); //customise this to your liking
       }
    });
-
-
-
 
 
    };
